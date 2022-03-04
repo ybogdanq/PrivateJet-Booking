@@ -1,0 +1,101 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: auto;
+}
+
+.header {
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 0px;
+  font-size: 14px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header.scrolled .menu__link::after {
+  background-color: #e5f4f6;
+}
+
+.menu__link {
+  position: relative;
+  margin: 0px 15px 0px 0px;
+}
+
+.menu__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 0;
+  height: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.menu__link:hover::after,
+.controls__button:hover::after {
+  width: 22px;
+  height: 22px;
+}
+
+.menu__link a {
+  color: #000;
+  text-decoration: none;
+}
+
+.menu__link:last-child {
+  margin: 0;
+}
+
+.controls__button {
+  position: relative;
+  margin: 0px 20px 0px 0px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.controls__button:last-child {
+  margin: 0;
+}
+
+.controls__button.active {
+  background-color: var(--btn-primary);
+  padding: 7px 24px;
+  color: #fff;
+}
+
+.controls__button.active:hover {
+  background-color: #7c78ac;
+}

@@ -1,0 +1,33 @@
+.body__routes {
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+  gap: 6px;
+  align-items: center;
+  margin: 20px 0px 15px;
+
+  .route__item {
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    padding: 15px 20px;
+    p {
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  .routes__arrows {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,77 @@
+.meeting__screen {
+  background: url("../../assets/meeting-section-bg.png") no-repeat;
+  background-position: center 100%;
+  background-size: cover;
+}
+
+.meeting__screen .container {
+  display: grid;
+  grid-template-columns: minmax(200px, 2fr) 1fr;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.meetingScreen__greeting .greeting__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.8rem;
+  line-height: 4.6rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.meetingScreen__greeting .greeting__text span {
+  color: var(--btn-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.greeting__link {
+  color: #000;
+  text-decoration: none;
+  margin-right: 0;
+  transition: color 0.3s ease-out;
+  font-weight: 500;
+}
+.greeting__link:hover {
+  color: var(--btn-primary);
+}
+
+.greeting__link_arrow {
+  transition: all 0.3s ease;
+}
+
+.greeting__link:hover .greeting__link_arrow {
+  padding-left: 10px;
+}
+
+.window__asset {
+  position: relative;
+  justify-self: flex-end;
+  height: 450px;
+  width: 360px;
+  border: 15px solid #fff;
+  border-radius: 25%;
+  border-bottom-right-radius: 30%;
+  backdrop-filter: saturate(200%) brightness(85%) opacity(300%);
+}
+.window__asset_helper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 23%;
+  border-bottom-right-radius: 28.5%;
+  box-shadow: 0px 0px 6px 6px rgba(153, 152, 152, 0.1);
+}
+.window__asset_brightness {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
