@@ -18,6 +18,7 @@
   font-size: 14px;
   background-color: transparent;
   transition: all 0.3s ease;
+  font-weight: 500;
 }
 
 .scrolled {
@@ -78,9 +79,9 @@
 }
 
 .controls__button {
+  display: inline-block !important;
   position: relative;
   margin: 0px 20px 0px 0px;
-  display: inline-block !important;
   cursor: pointer;
   border-radius: 5px;
   border: none;
@@ -96,9 +97,4 @@
   @extend %button;
   background-color: var(--btn-primary);
   padding: 7px 24px;
-  color: #fff;
-}
-
-.controls__button.active:hover {
-  background-color: #7c78ac;
 }

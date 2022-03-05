@@ -12,8 +12,9 @@ const BookForm: React.FC = (): JSX.Element => {
           <FormHeader className={styles.flightBook__header} />
           <FormBody className={styles.flightBook__body} />
           <FormFooter className={styles.flightBook__footer} />
-          <button className="flightBook__button">
-            Book Flights <span className="greeting__link_arrow">&#10132;</span>
+          <button className={styles.flightBook__button}>
+            Book Flights
+            <span className={styles.greeting__link_arrow}>&#10132;</span>
           </button>
         </form>
       </div>

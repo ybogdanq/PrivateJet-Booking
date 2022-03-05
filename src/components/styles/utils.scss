@@ -2,6 +2,11 @@
   display: block;
   cursor: pointer;
   border: none;
-  border-radius: 10px;
-  color: var(--btn-primary);
+  border-radius: 5px;
+  background-color: var(--btn-primary);
+  color: #fff;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #7c78ac;
+  }
 }

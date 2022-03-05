@@ -1,3 +1,5 @@
+@import "../../../styles/utils.scss";
+
 .flightBook {
   padding: 35px 30px;
   background-color: #fff;
@@ -12,5 +14,22 @@
     grid-template-columns: 1.5fr 1fr;
   }
   .flightBook__footer {
+  }
+  .flightBook__button {
+    @extend %button;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    bottom: 0;
+    padding: 20px 30px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+
+    .greeting__link_arrow {
+      padding-left: 50px;
+    }
   }
 }
