@@ -1,6 +1,7 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import BookForm from "./components/BookForm/BookForm";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MeetingSection from "./components/MeetingSection";
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <MeetingSection />
       <BookForm />
+      <Footer />
     </div>
   );
 }
