@@ -9,7 +9,6 @@
   box-sizing: border-box;
   font-weight: inherit;
   font-family: inherit;
-  font-size: inherit;
 }
 
 :root {
@@ -18,9 +17,9 @@
 
 body {
   overflow-x: hidden;
-  font-size: inherit;
   font-family: "Poppins", serif;
   color: #151515;
+  scroll-behavior: smooth;
 }
 
 .wrapper {

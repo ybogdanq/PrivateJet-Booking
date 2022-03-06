@@ -4,9 +4,9 @@
   padding: 35px 30px;
   background-color: #fff;
   box-shadow: -3px 0px 10px 0px rgba($color: #000000, $alpha: 0.1);
-  margin-bottom: 300px;
+  margin: -90px 0 110px;
   border-radius: 10px;
-  transform: translateY(-90px);
+
   .flightBook__header {
   }
   .flightBook__body {
@@ -20,8 +20,7 @@
 
     position: absolute;
     left: 50%;
-    transform: translateX(-50%) translateY(50%);
-    bottom: 0;
+    transform: translateX(-50%);
     padding: 20px 30px;
     font-size: 18px;
     line-height: 27px;
