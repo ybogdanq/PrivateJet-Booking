@@ -14,25 +14,25 @@ const PrivateJetSection: React.FC = (): JSX.Element => {
 
       <div className="container">
         <PrivateJetDescription image={image1} side="left">
-          <h1 className={styles.description__title}>title</h1>
+          <h1 className={styles.description__title}>Private Jet Charter</h1>
           <p className={styles.content}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-            veniam corporis velit nisi quaerat, dolor, dicta placeat nesciunt ab
-            maiores excepturi. Dignissimos delectus libero mollitia. Omnis
-            voluptatum aut dignissimos, deserunt accusantium maxime veniam nam,
-            animi incidunt rerum vel doloribus quia sed eum perspiciatis
-            doloremque magnam voluptate recusandae placeat minima et?
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English. Many desktop publishing
+            packages and web page editors
           </p>
         </PrivateJetDescription>
         <PrivateJetDescription image={image2} side="right">
-          <h1 className={styles.description__title}>title</h1>
+          <h1 className={styles.description__title}>Business Jet Charter</h1>
           <p className={styles.content}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-            veniam corporis velit nisi quaerat, dolor, dicta placeat nesciunt ab
-            maiores excepturi. Dignissimos delectus libero mollitia. Omnis
-            voluptatum aut dignissimos, deserunt accusantium maxime veniam nam,
-            animi incidunt rerum vel doloribus quia sed eum perspiciatis
-            doloremque magnam voluptate recusandae placeat minima et?
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English. Many desktop publishing
+            packages and web page editors
           </p>
         </PrivateJetDescription>
       </div>

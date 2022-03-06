@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MeetingSection from "./components/MeetingSection";
 import PrivateJetSection from "./components/PrivateJetSection/PrivateJetSection";
+import SpecificationSection from "./components/SpecificationSection";
 import Title from "./components/ui/title/Title";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <MeetingSection />
       <BookForm />
       <PrivateJetSection />
+      <SpecificationSection />
       <Footer />
     </div>
   );
