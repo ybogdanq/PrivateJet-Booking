@@ -1,0 +1,45 @@
+.charters {
+  margin-bottom: 65px;
+}
+
+.section__title {
+  margin-bottom: 65px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  .card__wrapper {
+    cursor: pointer;
+    padding: 10px 12px;
+    transition: all 0.3s ease;
+    &:hover {
+      transform: scale(1.03);
+    }
+    .chart__card {
+      text-align: center;
+      .card__image {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        aspect-ratio: 1.3/1;
+        overflow: hidden;
+        margin-bottom: 13px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .charter__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}

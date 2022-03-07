@@ -1,5 +1,5 @@
 import React from "react";
-import Select from "../../ui/select/Select";
+import Select from "../../../ui/select/Select";
 import { FormChildrenType } from "./helpers/FormChildrenType";
 
 const FormHeader: React.FC<FormChildrenType> = (props) => {

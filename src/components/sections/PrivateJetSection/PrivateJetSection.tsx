@@ -1,9 +1,9 @@
 import React from "react";
-import Title from "../ui/title/Title";
+import Title from "../../ui/title/Title";
 import PrivateJetDescription from "./components/PrivateJetDescription";
 import styles from "./styles/PrivateJetSection.module.scss";
-import image1 from "../../assets/PrivateJetSection/plane.webp";
-import image2 from "../../assets/PrivateJetSection/interier.webp";
+import image1 from "../../../assets/PrivateJetSection/plane.webp";
+import image2 from "../../../assets/PrivateJetSection/interier.webp";
 
 const PrivateJetSection: React.FC = (): JSX.Element => {
   return (

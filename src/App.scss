@@ -15,8 +15,12 @@
   --btn-primary: #656293;
 }
 
-body {
+html {
   overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden !important;
   font-family: "Poppins", serif;
   color: #151515;
   scroll-behavior: smooth;

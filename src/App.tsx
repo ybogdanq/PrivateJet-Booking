@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.scss";
-import BookForm from "./components/BookForm/BookForm";
+import BookForm from "./components/sections/BookForm/BookForm";
+import ChartersSection from "./components/sections/ChartersSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import MeetingSection from "./components/MeetingSection";
-import PrivateJetSection from "./components/PrivateJetSection/PrivateJetSection";
-import SpecificationSection from "./components/SpecificationSection";
-import Title from "./components/ui/title/Title";
+import MeetingSection from "./components/sections/MeetingSection";
+import PrivateJetSection from "./components/sections/PrivateJetSection/PrivateJetSection";
+import SpecificationSection from "./components/sections/SpecificationSection";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <BookForm />
       <PrivateJetSection />
       <SpecificationSection />
+      <ChartersSection />
       <Footer />
     </div>
   );
