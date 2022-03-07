@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import MeetingSection from "./components/sections/MeetingSection";
 import PrivateJetSection from "./components/sections/PrivateJetSection/PrivateJetSection";
 import SpecificationSection from "./components/sections/SpecificationSection";
+import MembershipSection from "./components/sections/MembershipSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <PrivateJetSection />
       <SpecificationSection />
       <ChartersSection />
+      <MembershipSection />
       <Footer />
     </div>
   );
