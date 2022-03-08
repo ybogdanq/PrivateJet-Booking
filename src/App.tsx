@@ -15,11 +15,11 @@ function App() {
       <Header />
       <MeetingSection />
       <BookForm />
-      <PrivateJetSection />
-      <SpecificationSection />
-      <ChartersSection />
-      <MembershipSection />
-      <Footer />
+      {/* <PrivateJetSection /> */}
+      {/* <SpecificationSection /> */}
+      {/* <ChartersSection /> */}
+      {/* <MembershipSection /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
